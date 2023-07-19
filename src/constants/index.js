@@ -1,8 +1,9 @@
+import { Camera } from 'three';
 import {
   frontend,
   backend,
   ux,
-  prototyping,
+  // polaroid,
   javascript,
   typescript,
   html,
@@ -57,10 +58,10 @@ const services = [
     title: 'UI/UX Design',
     icon: ux,
   },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+  // {
+  //   title: 'Photography',
+  //   icon: polaroid,
+  // },
 ];
 
 const technologies = [
