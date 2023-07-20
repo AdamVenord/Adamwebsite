@@ -3,7 +3,7 @@ import {
   frontend,
   backend,
   ux,
-  // polaroid,
+  polaroid,
   javascript,
   typescript,
   html,
@@ -12,7 +12,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  git,
+  github,
   figma,
   docker,
   postgresql,
@@ -28,6 +28,7 @@ import {
   dcc,
   kelhel,
   microverse,
+  semantic,
 } from '../assets';
 
 export const navLinks = [
@@ -58,10 +59,10 @@ const services = [
     title: 'UI/UX Design',
     icon: ux,
   },
-  // {
-  //   title: 'Photography',
-  //   icon: polaroid,
-  // },
+  {
+    title: 'Photography',
+    icon: polaroid,
+  },
 ];
 
 const technologies = [
@@ -78,48 +79,24 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
   },
   {
     name: 'Rails',
     icon: rubyrails,
   },
   {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
     name: 'postgresql',
     icon: postgresql,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'github',
+    icon: github,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
+    name: 'semantic',
+    icon: semantic,
   },
 ];
 

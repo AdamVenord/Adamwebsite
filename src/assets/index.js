@@ -12,6 +12,7 @@ import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
+import polaroid from './icons/polaroid.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
@@ -37,6 +38,7 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import semantic from './tech/semantic.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -51,6 +53,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  polaroid,
   bwmap,
   nairobi,
   whiteabstract,
@@ -96,4 +99,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  semantic,
 };

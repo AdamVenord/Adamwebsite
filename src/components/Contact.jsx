@@ -29,16 +29,17 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_y0zz5ac', // paste your ServiceID here (you'll get one when your service is created).
+        'emailjs.send("service_y0zz5ac","template_koi38eu");', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Adam Venord', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'Adamvenord7@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDhySVzeeZmOoADpjaey6BX6s8m8cpG25Hu4fWFblbtyMUJ5SXrMOvEThUNs+mtk+CcdJe2QNJsEVGUmddNiBQr3fEZImdUSepzxhp0tce7s5u02hoRTEn5fm5Cpd5/FlOJ+mRQH+WwTkHEbTpeB+C7I56n8nZs0JerUQEk4iPF+TaRBAnJ6D1pDp47YY12TpeoWa+l0LVC5ook9AK/fCdCn/p4U60dVlJ+RnliTukJywgSDagfEeMMbByYmnNiKqYpV/TGg//sQMeSczHqMMXxK0KSfr4HCesAh+Db0okXt4zxffQBLUaQIT344APaWthVmnpnNNYy5bZLAoqTd9KwsLWGQdsDZx4sJhsNY7B2YMAUhAdZhkgCeHyzPD396foXOcB8L1kEiXmxSYpxynxIc+bezDO86zvW6uIWfg8WO5whW5Ife9Av2kGB8US0RYqEQpCTaAJvHPIAuQyIDBD4YFUV0AyR1CmtNV4N3Zd4TdFhK5awQADss1mfV/G87f0= Adamvenord7@gmail.com' 
+        //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
