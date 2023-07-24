@@ -35,11 +35,10 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'Adam Venord', // put your name here.
           from_email: form.email,
-          to_email: 'Adamvenord7@gmail.com', //put your email here.
+          to_email: 'adamvenord7@gmail.com', //put your email here.
           message: form.message,
         },
-        'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDhySVzeeZmOoADpjaey6BX6s8m8cpG25Hu4fWFblbtyMUJ5SXrMOvEThUNs+mtk+CcdJe2QNJsEVGUmddNiBQr3fEZImdUSepzxhp0tce7s5u02hoRTEn5fm5Cpd5/FlOJ+mRQH+WwTkHEbTpeB+C7I56n8nZs0JerUQEk4iPF+TaRBAnJ6D1pDp47YY12TpeoWa+l0LVC5ook9AK/fCdCn/p4U60dVlJ+RnliTukJywgSDagfEeMMbByYmnNiKqYpV/TGg//sQMeSczHqMMXxK0KSfr4HCesAh+Db0okXt4zxffQBLUaQIT344APaWthVmnpnNNYy5bZLAoqTd9KwsLWGQdsDZx4sJhsNY7B2YMAUhAdZhkgCeHyzPD396foXOcB8L1kEiXmxSYpxynxIc+bezDO86zvW6uIWfg8WO5whW5Ife9Av2kGB8US0RYqEQpCTaAJvHPIAuQyIDBD4YFUV0AyR1CmtNV4N3Zd4TdFhK5awQADss1mfV/G87f0= Adamvenord7@gmail.com' 
-        //paste your Public Key here. You'll get it in your profile section.
+        'cwHmL-C-r8ujdKgHV' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -67,8 +66,8 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        <p className={styles.sectionSubText}>Get in touch with me</p>
+        <h3 className={styles.sectionHeadTextLight}>Contact</h3>
 
         <form
           ref={formRef}
