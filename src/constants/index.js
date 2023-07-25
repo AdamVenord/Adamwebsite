@@ -29,6 +29,7 @@ import {
   kelhel,
   microverse,
   semantic,
+  music,
 } from '../assets';
 
 export const navLinks = [
@@ -62,6 +63,10 @@ const services = [
   {
     title: 'Photography',
     icon: polaroid,
+  },
+  {
+    title:'Music',
+    icon: music,
   },
 ];
 

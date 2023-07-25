@@ -9,6 +9,7 @@ import spider from './logo/spider.png';
 
 import shaq from './personal/shaq.png';
 
+import music from './icons/music.png'
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -54,6 +55,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  music,
   polaroid,
   bwmap,
   nairobi,
