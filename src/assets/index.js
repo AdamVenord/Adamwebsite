@@ -1,10 +1,11 @@
 import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
-import worldmap from './backgrounds/world-map.png';
+import cameras from './backgrounds/cameras.png';
+import camerasthick from './backgrounds/camerasthick.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import Adam from './logo/Adam.png';
+import spider from './logo/spider.png';
 
 import shaq from './personal/shaq.png';
 
@@ -57,9 +58,10 @@ export {
   bwmap,
   nairobi,
   whiteabstract,
-  worldmap,
-  logo,
-  logotext,
+  cameras,
+  camerasthick,
+  Adam,
+  spider,
   shaq,
   backend,
   ux,
