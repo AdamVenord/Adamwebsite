@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
-import { github, pineapple, pineappleHover } from '../assets';
+import { github, anime, animehover, pineapple, pineappleHover } from '../assets';
 import { projects } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 
@@ -88,16 +88,16 @@ const ProjectCard = ({
               onMouseOver={() => {
                 document
                   .querySelector('.btn-icon')
-                  .setAttribute('src', pineappleHover);
+                  .setAttribute('src', animehover);
               }}
               onMouseOut={() => {
                 document
                   .querySelector('.btn-icon')
-                  .setAttribute('src', pineapple);
+                  .setAttribute('src', anime);
               }}>
               <img
-                src={pineapple}
-                alt="pineapple"
+                src={anime}
+                alt="anime"
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
@@ -117,18 +117,18 @@ const Projects = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadTextLight}`}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
+          These projects show off some of my skills with examples of
           some of my work, including brief descriptions and links to code
           repositories and live demos. They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          oversee projects
         </motion.p>
       </div>
 

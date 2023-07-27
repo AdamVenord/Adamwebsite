@@ -19,6 +19,8 @@ import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
+import anime from './icons/anime.png';
+import animehover from './icons/animehover.png';
 import pineapple from './icons/pineapple.png';
 import pineappleHover from './icons/pineappleHover.png';
 import menu from './icons/menu.png';
@@ -53,6 +55,9 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import star from './projects/star.png';
+import rain from './projects/rain.png';
+import labs from './projects/labs.png';
 
 export {
   music,
@@ -73,6 +78,8 @@ export {
   close,
   download,
   downloadHover,
+  anime,
+  animehover,
   pineapple,
   pineappleHover,
   menu,
@@ -99,6 +106,9 @@ export {
   movie,
   nyeusi,
   space,
+  star,
+  rain,
+  labs,
   coverhunt,
   dcc,
   kelhel,
