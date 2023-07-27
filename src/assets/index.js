@@ -7,7 +7,8 @@ import camerasthick from './backgrounds/camerasthick.png';
 import Adam from './logo/Adam.png';
 import spider from './logo/spider.png';
 
-import shaq from './personal/shaq.png';
+import me from './personal/me.png';
+import chase from './personal/chase.png';
 
 import music from './icons/music.png'
 import backend from './icons/backend.png';
@@ -69,7 +70,8 @@ export {
   camerasthick,
   Adam,
   spider,
-  shaq,
+  me,
+  chase,
   backend,
   ux,
   frontend,

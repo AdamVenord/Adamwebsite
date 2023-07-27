@@ -110,32 +110,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'didgital literacy certification',
+    company_name: 'Ctec',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: '2015 - 2016',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Assosciates Of Science in psychology',
+    company_name: 'Salt lake community college',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: '2016 - 2019',
+  },
+  {
+    title: 'Full Stack Web Development certification',
+    company_name: 'DevPoint Labs',
+    icon: microverse,
+    iconBg: '#333333',
+    date: '2019 - 2020',
+  },
+  {
+    title: 'Freelance work',
+    company_name: 'Upwork',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: '2020 - Present',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Chief executive officer',
+    company_name: 'Spider Studios LLC',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: '2022 - Present',
   },
 ];
 
