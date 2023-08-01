@@ -3,6 +3,7 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import cameras from './backgrounds/cameras.png';
 import camerasthick from './backgrounds/camerasthick.png';
+import swing from './backgrounds/swing.png';
 
 import Adam from './logo/Adam.png';
 import spider from './logo/spider.png';
@@ -45,10 +46,11 @@ import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 import semantic from './tech/semantic.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import ctec from './company/ctec.png';
+import college from './company/college.png';
+import devpoint from './company/devpoint.png';
+import upwork from './company/upwork.png';
+import spiderwhite from './company/spiderwhite.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -68,6 +70,7 @@ export {
   whiteabstract,
   cameras,
   camerasthick,
+  swing,
   Adam,
   spider,
   me,
@@ -111,9 +114,10 @@ export {
   star,
   rain,
   labs,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  ctec,
+  college,
+  devpoint,
+  upwork,
   semantic,
+  spiderwhite,
 };
