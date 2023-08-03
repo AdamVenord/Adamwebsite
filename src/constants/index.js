@@ -74,6 +74,25 @@ const services = [
   },
 ];
 
+const photos = [
+  {
+    title: 'Frontend Developer',
+    icon: frontend,
+  },
+  {
+    title: 'Backend Developer',
+    icon: backend,
+  },
+  {
+    title: 'UI/UX Design',
+    icon: ux,
+  },
+  {
+    title: 'Photography',
+    icon: polaroid,
+  },
+];
+
 const technologies = [
   {
     name: 'HTML 5',
@@ -262,4 +281,4 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, photos };
