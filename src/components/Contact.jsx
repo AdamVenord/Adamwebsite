@@ -30,12 +30,12 @@ const Contact = () => {
     emailjs
       .send(
         'service_y0zz5ac', // paste your ServiceID here (you'll get one when your service is created).
-        'emailjs.send("service_y0zz5ac","template_koi38eu");', // paste your TemplateID here (you'll find it under email templates).
+        'template_koi38eu', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
           to_name: 'Adam Venord', // put your name here.
           from_email: form.email,
-          to_email: 'adamvenord7@gmail.com', //put your email here.
+          to_email: 'Adamvenord7@gmail.com', //put your email here.
           message: form.message,
         },
         'cwHmL-C-r8ujdKgHV' //paste your Public Key here. You'll get it in your profile section.
@@ -66,8 +66,8 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch with me</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact</h3>
+        <p className={styles.sectionSubText}>Get in touch</p>
+        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
         <form
           ref={formRef}
