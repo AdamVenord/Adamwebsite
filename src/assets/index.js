@@ -11,7 +11,7 @@ import spider from './logo/spider.png';
 import me from './personal/me.png';
 import chase from './personal/chase.png';
 
-import music from './icons/music.png';
+
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -63,7 +63,7 @@ import rain from './projects/rain.png';
 import labs from './projects/labs.png';
 
 export {
-  music,
+
   polaroid,
   bwmap,
   nairobi,
