@@ -5,7 +5,7 @@ import cameras from './backgrounds/cameras.png';
 import camerasthick from './backgrounds/camerasthick.png';
 import swing from './backgrounds/swing.png';
 
-import adam from "./logo/adam.png";
+import Adam from "./logo/Adam.png";
 import spider from './logo/spider.png';
 
 import me from './personal/me.png';
@@ -71,7 +71,7 @@ export {
   cameras,
   camerasthick,
   swing,
-  adam,
+  Adam,
   spider,
   me,
   chase,
