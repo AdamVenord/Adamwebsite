@@ -69,7 +69,7 @@ const services = [
     icon: polaroid,
   },
   {
-    title:'Music',
+    title:'music',
     icon: music,
   },
 ];
