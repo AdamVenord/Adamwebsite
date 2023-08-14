@@ -11,8 +11,8 @@ import spider from './logo/spider.png';
 import me from './personal/me.png';
 import chase from './personal/chase.png';
 
-import music from './icons/music.png';
 import backend from './icons/backend.png';
+import music from './icons/music.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
@@ -71,7 +71,7 @@ export {
   cameras,
   camerasthick,
   swing,
-  Adam,
+  adam,
   spider,
   me,
   chase,
