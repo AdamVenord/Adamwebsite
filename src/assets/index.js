@@ -12,7 +12,7 @@ import me from './personal/me.png';
 import chase from './personal/chase.png';
 
 import backend from './icons/backend.png';
-import music from './icons/music.png';
+import Music from './icons/Music.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
@@ -63,7 +63,7 @@ import rain from './projects/rain.png';
 import labs from './projects/labs.png';
 
 export {
-  music,
+  Music,
   polaroid,
   bwmap,
   nairobi,

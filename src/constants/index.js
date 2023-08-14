@@ -32,7 +32,7 @@ import {
   devpoint,
   upwork,
   semantic,
-  music,
+  Music,
   spiderwhite,
 } from '../assets';
 
@@ -69,8 +69,8 @@ const services = [
     icon: polaroid,
   },
   {
-    title:'music',
-    icon: music,
+    title:'Music',
+    icon: Music,
   },
 ];
 
